@@ -1,0 +1,370 @@
+.maindiv {
+    margin: 0%;
+    padding: 0%;
+}
+
+.newyear {
+    background-image: url(/webpage/resources/Banner\ Image.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-blend-mode: darken;
+    background-attachment: scroll;
+    background-blend-mode: darken;
+    height: 600px;
+    width: 1320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* background: rgba(0, 0, 0, 0.7); */
+
+}
+
+.sixtyive {
+    color: rgb(255, 0, 0);
+
+}
+
+.holiday {
+    color: rgb(253, 0, 0);
+}
+
+.all {
+    color: rgb(0, 0, 0);
+}
+
+.secoundimg {
+    background-repeat: no-repeat;
+    margin-top: 1in;
+    background-attachment: scroll;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.secoundimage {
+    height: 500px;
+    width: 806px;
+    background-position: center;
+    display: block;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newyear {
+    text-shadow: 2px;
+}
+
+.text {
+    text-align: center;
+}
+
+.discount {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*.partyimg{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 600px;
+    width: 1320px;
+    background-position: center;
+    display: block;
+    background-size: 100% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}*/
+.lefttext {
+    display: inline-block;
+    text-align: right;
+}
+
+.third {
+    background-image: url(/webpage/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-attachment: scroll;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 1320px;
+    color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-text {
+    margin-left: 128px;
+}
+
+.third-paragraph {
+    width: 697px;
+    color: gray;
+}
+
+.third-title {
+    font-size: 64px;
+    width: 642px;
+}
+
+.join-btn {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.third-img {
+    margin-right: 128px;
+}
+
+/* venue section styles */
+.venue {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 10px;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.venue-details {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.venu-target {
+    color: red;
+}
+
+.venue-text {
+    margin-bottom: 8%;
+    font-size: 32px;
+}
+
+.venue-btn {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Offer section styles  */
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.offer-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.comming-soon{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.venu-details{
+    width: 393px;
+}
+
+.venu-img{
+    border-color: red;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 7px;
+    padding: 15px;
+}
+
+/* Holiday section started  */
+.holidays{
+    width: 1320px;
+    height: 250px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.holiday-text{
+    text-align: center;
+}
+
+.holiday-titles{
+    font-size: 24px;
+}
+
+.next-title{
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: -1%;
+}
+
+.holiday-details{
+    width: 1068px;
+    margin: 0 auto;
+    margin-top: -3%;
+}
+
+/* Discount styles  */
+.discounts{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.women{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fifty{
+    margin-top: -100%;
+    margin-left: -30%;
+}
+
+.red-img{
+    margin-top: -1.8%;
+}
+
+.gift-box{
+    margin-top: -50%;
+    width: 732px;
+}
+
+/* Gifts styles  */
+.gifts{
+    margin-top: 13%;
+}
+
+.giftsss{
+    width: 1320px;
+    height: 482px;
+     margin: 0 auto;
+}
+
+.gift-title{
+    font-size: 24px;
+    color: red;
+}
+
+.gifts-next{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.gift-details{
+    font-size: 24px;
+    width: 896px;
+    color: gray;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+/* Subscribe styles  */
+.subscribe{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 10px;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 40%;
+    margin-bottom: 4%;
+}
+
+.subscribe-details{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.subscribe-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subs-details{
+    width: 896px;
+    margin: 0 auto;
+}
+
+.subs-btn{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.subs-input{
+    padding: 15px;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.subs-btnz{
+    padding: 15px 20px;
+    border-radius: 25px;
+    margin-left: -40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer styles  */
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-top: 8%;
+}
+
+.detailsoffoter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.reserved{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
